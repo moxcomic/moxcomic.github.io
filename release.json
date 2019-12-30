@@ -97,5 +97,21 @@
         "description" : "vConsole",
         "name" : "vConsole",
         "homepage": "https://github.com/moxcomic/vConsole.git"
+    },
+
+    {
+        "id": "mjpai_BiliBiliTV",
+        "version": "2.0.0",
+        "name": "Bilibili白天蓝小电视牌背",
+        "author": "CuewarsTaner",
+        "description": "BiliBili麻将牌,替换默认牌背和绿牌背",
+        "preview": "https://raw.githubusercontent.com/moxcomic/mjpai_BiliBiliTV/master/preview.jpg",
+        "homepage": "https://github.com/moxcomic/mjpai_BiliBiliTV.git",
+        "source":
+        {
+            "type": "release",
+            "tag": "2.0.0",
+            "file": "Bilibili白天蓝小电视牌背(mjpai_BiliBiliTV) - CuewarsTaner.mspr.mspr"
+        }
     }
 ]
