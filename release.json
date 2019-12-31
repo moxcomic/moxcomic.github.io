@@ -128,5 +128,20 @@
             "type": "raw",
             "file": "shuibiao-unknown.mspe"
         }
+    },
+
+    {
+        "id": "FansView",
+	    "version": "1.0.0",
+	    "name": "番数显示",
+	    "author": "88826",
+	    "description": "显示手牌番数，不包括宝牌",
+        "preview": "preview.jpg",
+        "homepage": "https://github.com/moxcomic/FansView.git",
+        "source":
+        {
+            "type": "raw",
+            "file": "FansView-88826.mspe"
+        }
     }
 ]
