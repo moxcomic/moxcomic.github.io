@@ -173,16 +173,5 @@
         "description": "一姬改希儿:包含立绘,语音,大厅&室内背景,开局&结束语音,手纹(圣痕),角色信息;菜名语音;泽尼亚",
         "preview": "preview.jpg",
         "homepage":"https://github.com/reatoz/SeeleVollerei.git"
-    },
-
-    {
-        "id": "extraBGMs-qqhlddz",
-        "version": "1.0.0",
-        "name": "欢乐斗地主音乐盒",
-        "author": "Handle",
-        "description": "BGM音频由小旭音乐创作\n这个模组自带全部依赖，请不要启用其他任何音乐盒插件。",
-        "entry": "script.js",
-        "preview": "preview.jpg",
-        "homepage": "https://github.com/moxcomic/extraBGMs-qqhlddz.git"
     }
 ]
