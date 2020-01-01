@@ -6,7 +6,12 @@
         "author": "Majsoul Plus Team",
         "version": "1.2.1",
         "preview": "https://raw.githubusercontent.com/moxcomic/wqdy/master/preview.jpg",
-        "homepage": "https://github.com/moxcomic/wqdy.git"
+        "homepage": "https://github.com/moxcomic/wqdy.git",
+        "update":
+        {
+            "time": "2020-01-01",
+            "message": "测试update参数"
+        }
     },
 
     {
