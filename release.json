@@ -183,5 +183,23 @@
         "description": "打牌时&报牌增加时 加入报牌语音(卡维&泽尼亚)",
         "preview": "preview.png",
         "homepage":"https://github.com/moxcomic/pais_sound.git"
+    },
+
+    {
+        "id": "board_whiteblack",
+        "version": "1.0.0",
+        "name": "改點數顯示版（透明白+不透明黑）",
+        "author": "元始天尊",
+        "description": "將點數顯示版替換為透明白+不透明黑，\n本套點數顯示版由小魔繪製。",
+        "homepage":"https://github.com/moxcomic/board_whiteblack.git"
+    },
+
+    {
+        "id": "board_white",
+        "version": "1.0.0",
+        "name": "改點數顯示版（透明白）",
+        "author": "元始天尊,AnriMachishiro（1.X转2.X）",
+        "description": "將點數顯示版替換為透明白，\n本套點數顯示版由小魔繪製。",
+        "homepage":"https://github.com/moxcomic/board_white.git"
     }
 ]
