@@ -173,5 +173,15 @@
         "description": "一姬改希儿:包含立绘,语音,大厅&室内背景,开局&结束语音,手纹(圣痕),角色信息;菜名语音;泽尼亚",
         "preview": "preview.jpg",
         "homepage":"https://github.com/reatoz/SeeleVollerei.git"
+    },
+
+    {
+        "id": "pais_sound",
+        "version": "1.2.2",
+        "name": "语音麻将",
+        "author": ["bin"],
+        "description": "打牌时&报牌增加时 加入报牌语音(卡维&泽尼亚)",
+        "preview": "preview.png",
+        "homepage":"https://github.com/reatoz/pais_sound.git"
     }
 ]
