@@ -201,5 +201,15 @@
         "author": "元始天尊,AnriMachishiro（1.X转2.X）",
         "description": "將點數顯示版替換為透明白，\n本套點數顯示版由小魔繪製。",
         "homepage":"https://github.com/moxcomic/board_white.git"
+    },
+
+    {
+        "id": "tablecloth_2233",
+	    "version": "1.0.0",
+	    "name": "桌布-2233宇宙",
+	    "author": "weini",
+	    "description": "",
+        "preview": "assets/preview.jpg",
+        "homepage": "https://github.com/moxcomic/tablecloth_2233.git"
     }
 ]
