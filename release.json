@@ -215,10 +215,10 @@
 
     {
         "id": "tablecloth_2017",
-	    "version": "1.0.0",
-	    "name": "桌布-2017",
-	    "author": "weini",
-	    "description": "",
+        "version": "1.0.0",
+        "name": "桌布-2017",
+        "author": "weini",
+        "description": "",
         "preview": "assets/preview.jpg",
         "homepage": "https://github.com/moxcomic/tablecloth_2017.git"
     }
