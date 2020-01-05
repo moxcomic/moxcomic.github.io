@@ -205,10 +205,10 @@
 
     {
         "id": "tablecloth_2233",
-	    "version": "1.0.0",
-	    "name": "桌布-2233宇宙",
-	    "author": "weini",
-	    "description": "",
+        "version": "1.0.0",
+        "name": "桌布-2233宇宙",
+        "author": "weini",
+        "description": "",
         "preview": "assets/preview.jpg",
         "homepage": "https://github.com/moxcomic/tablecloth_2233.git"
     }
