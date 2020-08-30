@@ -1,0 +1,31 @@
+Package: com.moxcomic.MeituanTweak
+Version: 0.0.1-Alpha
+Architecture: iphoneos-arm
+Depends: firmware (>= 5.0), mobilesubstrate
+Filename: ./debs/com.moxcomic.MeituanTweak_0.0.1-Alpha_iphoneos-arm.deb
+Size: 141350
+MD5sum: 5166dc5d804fa78c2a4a87a31e53fa62
+SHA1: c96ab6864a129de731e15ff30e49fb4185b90565
+SHA256: a9db63183d0dfe76c7975064b64354fd9ad732e58cc96ac926c20d6dde45b505
+Section: System
+Priority: optional
+Description: 美团电单车🅿️点修改. 建议/bug反馈QQ: 656469762
+Author: 神崎H亚里亚
+Name: MeituanTweak
+
+Package: com.moxcomic.acrackprozs
+Version: 0.0.1-21+debug
+Architecture: iphoneos-arm
+Maintainer: 神崎H亚里亚
+Installed-Size: 152
+Depends: mobilesubstrate
+Filename: ./debs/com.moxcomic.acrackprozs_0.0.1-21+debug_iphoneos-arm.deb
+Size: 7214
+MD5sum: 111d2ec06b1da13ac0c0c4dbf60ba343
+SHA1: 1b22ec12357ceb6b3aecad56679b27e6d4200bbb
+SHA256: eada995753c9e890e6a6a4864de0089074e1c44dda5af4a05b51d27eeab686da
+Section: Tweaks
+Description: 让Pro助手不再检测多米诺和App越狱推送源, bug反馈QQ: 656469762
+Author: 神崎H亚里亚
+Name: ACrackProZS
+
