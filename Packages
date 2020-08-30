@@ -29,3 +29,19 @@ Description: 让Pro助手不再检测多米诺和App越狱推送源, bug反馈QQ
 Author: 神崎H亚里亚
 Name: ACrackProZS
 
+Package: com.moxcomic.anodetectlly
+Version: 0.0.1-18+debug
+Architecture: iphoneos-arm
+Maintainer: 神崎H亚里亚
+Installed-Size: 152
+Depends: mobilesubstrate
+Filename: ./debs/com.moxcomic.anodetectlly_0.0.1-18+debug_iphoneos-arm.deb
+Size: 8714
+MD5sum: 8d1930142f302d797c798988be03b351
+SHA1: 8bc05ce5a9876556a65a386bb1a8dceee21a9f4b
+SHA256: f43d76976914d446c7fd4192881377dff3d45c59a6219b8621a2838a449076c2
+Section: Tweaks
+Description: 让lenglengyu源插件不再检测越狱推送和多米诺源。
+Author: 神崎H亚里亚
+Name: ANoDetectLLY
+
