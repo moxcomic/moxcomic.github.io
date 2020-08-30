@@ -13,6 +13,20 @@ Description: 美团电单车🅿️点修改. 建议/bug反馈QQ: 656469762
 Author: 神崎H亚里亚
 Name: MeituanTweak
 
+Package: com.moxcomic.MinZhengTongTweak
+Version: 0.1-1
+Architecture: iphoneos-arm
+Depends: firmware (>= 5.0), mobilesubstrate
+Filename: ./debs/com.moxcomic.MinZhengTongTweak_0.1-1_iphoneos-arm.deb
+Size: 12772
+MD5sum: f39d720d44808fe97b870984abde0ecb
+SHA1: a621eb10ed35e6035e5230cf49d971ffc03f23cf
+SHA256: a037aba7c4dd1015b47f03cca651f0a7cae1b3b9a8114d6b5c52919d84f7d7de
+Section: System
+Priority: optional
+Author: 神崎H亚里亚
+Name: MinZhengTongTweak
+
 Package: com.moxcomic.acrackprozs
 Version: 0.0.1-21+debug
 Architecture: iphoneos-arm
