@@ -60,18 +60,18 @@ Author: 神崎H亚里亚
 Name: ANoDetectLLY
 
 Package: com.moxcomic.qingqi
-Version: 0.0.1-12+debug
+Version: 0.0.1
 Architecture: iphoneos-arm
 Maintainer: 神崎H亚里亚
-Installed-Size: 552
+Installed-Size: 200
 Depends: mobilesubstrate (>= 0.9.5000)
-Filename: ./debs/com.moxcomic.qingqi_0.0.1-12+debug_iphoneos-arm.deb
-Size: 158652
-MD5sum: dafd85a53b4c3ea207590273297ac244
-SHA1: 22afbf4d05cc47cdbab687f9c350ffab9b06731f
-SHA256: 893ccbb6bddaa084b0139c2f729b256502af9107ec01e0e41e4a4d935930bc27
+Filename: ./debs/com.moxcomic.qingqi_0.0.1_iphoneos-arm.deb
+Size: 40748
+MD5sum: 7e89d42b65bae50958ef8d5c917d4ae5
+SHA1: 5e05ea67eb7c1e95058468b87778df08a786352f
+SHA256: 2e41461dbefc8f64f7508805bdf3d4b41bb8eb936623ccc3f4d6012fe0752aa6
 Section: Tweaks
-Description: An awesome MobileSubstrate tweak!
+Description: 青桔电单车停车点修改插件。
 Author: 神崎H亚里亚
 Name: QingQiTweak
 
