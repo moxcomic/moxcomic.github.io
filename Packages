@@ -28,16 +28,16 @@ Author: 神崎H亚里亚
 Name: MinZhengTongTweak
 
 Package: com.moxcomic.acrackprozs
-Version: 0.0.1
+Version: 0.0.2
 Architecture: iphoneos-arm
 Maintainer: 神崎H亚里亚
 Installed-Size: 136
 Depends: mobilesubstrate
-Filename: ./debs/com.moxcomic.acrackprozs_0.0.1_iphoneos-arm.deb
-Size: 17542
-MD5sum: 8267774afc1d0db22594e82f4c468ce2
-SHA1: 0b1b53ced37a8e9cc4ed0b1d3c0b4597d9c87513
-SHA256: 919fcb63ff7efe88faf02387d6fd3e62beea700bc34e12a2ed8348e5a344c370
+Filename: ./debs/com.moxcomic.acrackprozs_0.0.2_iphoneos-arm.deb
+Size: 17534
+MD5sum: 003aeaceeed6666ec890810e0ed90846
+SHA1: 40254f8d3bafe2be6a839f795ed038eca75b098b
+SHA256: 06ed61278cec8ef9be80b64987d71fe9e226a17f32644734031034c73ac17428
 Section: Tweaks
 Description: 让Pro助手不再检测多米诺和App越狱推送源, bug反馈QQ: 656469762
 Author: 神崎H亚里亚
