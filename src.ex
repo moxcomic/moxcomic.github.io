@@ -15,7 +15,7 @@
             "name": "我全都要",
             "description": "本地解锁全人物，道具等。\n基本解决插件冲突问题,不与服务器冲突时可以送礼物结契约",
             "author": "Majsoul Plus Team",
-            "version": "2.3.2",
+            "version": "2.5.1",
             "preview": "https://raw.githubusercontent.com/moxcomic/wqdy/master/preview.jpg",
             "homepage": "https://github.com/moxcomic/wqdy.git",
             "update":
