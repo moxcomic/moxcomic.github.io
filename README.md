@@ -75,7 +75,7 @@
     git git commit -m "update"
     git push origin master
     手动在Github打Release包上传文件
-    Tag即File为你手动填写的值
+    Tag和File即为你手动填写的值
 ```
 ### Http方式
 ```
