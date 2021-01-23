@@ -96,6 +96,11 @@
 # 赞助
 如果对您有所帮助，欢迎您的赞赏
 <figure class="third">
+    <img src="https://moxcomic.github.io/wechat.png" width=200>
+    <img src="https://moxcomic.github.io/alipay.png" width=200>
+    <img src="https://moxcomic.github.io/qq.png" width=200>
+</figure>
+<figure class="third">
     <img src="https://gitee.com/moxcomic/majsoul-ex/raw/master/wechat.png" width=200>
     <img src="https://gitee.com/moxcomic/majsoul-ex/raw/master/alipay.png" width=200>
     <img src="https://gitee.com/moxcomic/majsoul-ex/raw/master/qq.png" width=200>
