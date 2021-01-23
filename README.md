@@ -59,8 +59,33 @@
         - tag: String -> 用于release下载模式指定tag
         - file: String -> 用于release/http/raw下载模式指定下载文件名
 
-## 插件仓库存放
-按照正常Git仓库方式存储即可, 只需将`.git`的地址填入`src.ex`中`release`里对应的`homepage`字段即可识别。
+## 插件仓库
+### Archive方式
+- 假设插件的`版本`为`1.0.0`
+```
+    git add .
+    git git commit -m "update"
+    git push origin master
+    git tag 1.0.0
+    git push --tags
+```
+### Release方式
+```
+    git add .
+    git git commit -m "update"
+    git push origin master
+    手动在Github打Release包上传文件
+    Tag即File为你手动填写的值
+```
+### Http方式
+```
+    手动上传至任意地方, 此模式必须使用可以直接下载的直链
+```
+### Raw方式
+```
+    将插件文件(.ex/.mspe/.mspm/.mspr)直接上传至仓库, 并填写file为该文件名即可
+```
+
 
 # 联系方式
 - B站ID: [神崎·H·亚里亚](https://space.bilibili.com/898411/)  
