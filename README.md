@@ -61,8 +61,8 @@
 
 ## 插件仓库
 ### Archive方式
-- 假设插件的`版本`为`1.0.0`
 ```
+    假设插件的`版本`为`1.0.0`
     git add .
     git git commit -m "update"
     git push origin master
