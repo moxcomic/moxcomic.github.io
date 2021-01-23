@@ -86,6 +86,35 @@
     将插件文件(.ex/.mspe/.mspm/.mspr)直接上传至仓库, 并填写file为该文件名即可
 ```
 
+# 快捷指令
+为了支持`雀魂Plus`雀Ex在`快捷指令`部分内容使用雀魂Plus的配置, 两者可通用。  
+在`雀Ex`初始化时会出入`Majsoul_Plus`字段, 之后`每个插件被载入前`会在前面的字段中注册`以插件ID为字段的Key`, 之后只要`在JS中`使用`Majsoul_Plus["id"] = xxx`注册即可, 详细可参考`我全都要`插件的写法。
+
+```
+if (!window.wqdy) {
+    window.wqdy = new WQDY();
+    window.wqdy.readSetting();
+    Majsoul_Plus["wqdy"] = {
+        name: "我全都要",
+        actions: {
+            "手动保存配置": () => window.wqdy.writeSetting(),
+            "切换表情显示": () => {
+                args.isUseOriginEmoji = !args.isUseOriginEmoji;
+                localStorage.setItem("isUseOriginEmoji", args.isUseOriginEmoji);
+                return "应用成功，下一局游戏生效。"
+            },
+            "按性别排序角色": () => {
+                args.isSexSort = !args.isSexSort;
+                localStorage.setItem("isSexSort", isSexSort);
+                return "应用成功，重新启动游戏后生效。"
+            }
+        }
+    }
+    console.log("我全都要 加载完毕");
+} else {
+    console.warn("")
+}
+```
 
 # 联系方式
 - B站ID: [神崎·H·亚里亚](https://space.bilibili.com/898411/)  
