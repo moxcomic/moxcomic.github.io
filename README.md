@@ -95,6 +95,8 @@
 
 # 赞助
 如果对您有所帮助，欢迎您的赞赏
-![](https://gitee.com/moxcomic/majsoul-ex/raw/master/wechat.JPG)
-![](https://gitee.com/moxcomic/majsoul-ex/raw/master/alipay.JPG)
-![](https://gitee.com/moxcomic/majsoul-ex/raw/master/qq.JPG)
+<figure class="third">
+    <img src="https://gitee.com/moxcomic/majsoul-ex/raw/master/wechat.png" width=200>
+    <img src="https://gitee.com/moxcomic/majsoul-ex/raw/master/alipay.png" width=200>
+    <img src="https://gitee.com/moxcomic/majsoul-ex/raw/master/qq.png" width=200>
+</figure>
