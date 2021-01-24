@@ -1,12 +1,14 @@
 # 关于雀魂Ex
-`雀魂Ex`是由`神崎·H·亚里亚`个人兴趣爱好所编写的`第三方移动平台(iOS/Android)雀魂客户端`, 并且支持加载`雀魂Plus`的扩展包。`雀魂Ex`双端开发均由`一人`完成所以后续更新及维护并不会那么及时, 此项目完全出于兴趣爱好所写, 并且非开源项目, 后续维护看情况`(至少保证能用)`。
+&emsp;&emsp;雀魂Ex是一款基于WebView(网页浏览器)的第三方移动平台(iOS & Android)客户端,本客户端(iOS & Android)双端均由`神崎·H·亚里亚`一人独立开发,由于本人只会iOS开发故Android版本在一年后终于完成了编写(~~期间也因为各种情况咕咕了许久~~),编写该客户端的初中只是因为2019年在贴吧中看到了雀魂魔改的帖子并且对此产生了兴趣(~~虽然现在已经弃坑不打雀了~~),在搜索到了PC端的魔改客户端`雀魂Plus`后由于其没有移动平台(iOS & Android)客户端便想着自己写一个移动平台的魔改客户端(~~其实是因为那时候天气冷就想着窝在被窝里用手机玩~~)。
+
+&emsp;&emsp;时过境迁,雀魂Ex从2019年开发到现在已经`2周年`了,在这两年里经过不断的踩坑和咕咕,雀魂Ex终于成长为了现在的亚子;由于雀魂Ex(iOS & Android)双端均由一人独自开发与维护,因时间有限后续的开发维护可能不会那么及时,但至少保证在能够使用的程度。
 
 # 免责声明
 在您使用`雀魂Ex`进行游戏时造成的`包含但不局限于限制登录、封号等`后果`均由用户自行承担`, `雀魂Ex`不对此承担任何责任!
 
 # 开发进度
 - iOS: `3.1.6 正式版`  
-- Android: `1.0.0 正式版`
+- Android: `1.0.1 正式版`
 
 # 开发语言
 - iOS: `Swift & Objective-C`  
@@ -128,9 +130,4 @@ if (!window.wqdy) {
     <img src="https://moxcomic.github.io/wechat.png" width=200>
     <img src="https://moxcomic.github.io/alipay.png" width=200>
     <img src="https://moxcomic.github.io/qq.png" width=200>
-</figure>
-<figure class="third">
-    <img src="https://gitee.com/moxcomic/majsoul-ex/raw/master/wechat.png" width=200>
-    <img src="https://gitee.com/moxcomic/majsoul-ex/raw/master/alipay.png" width=200>
-    <img src="https://gitee.com/moxcomic/majsoul-ex/raw/master/qq.png" width=200>
 </figure>
