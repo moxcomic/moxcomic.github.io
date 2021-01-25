@@ -16,7 +16,7 @@
 
 # 下载地址
 - 最新发布版本: [点我进入最新版本页面](https://github.com/moxcomic/majsoul-ex/releases/tag/iOS%2FAndroid)  
-- 安卓版本下载: [点我下载最新安卓版本](https://github.com/moxcomic/majsoul-ex/releases/download/iOS%2FAndroid/majsoulex_android_1.0.1.apk)  
+- 安卓版本下载: [点我下载最新安卓版本](https://github.com/moxcomic/majsoul-ex/releases/download/iOS%2FAndroid/majsoulex_android_1.0.2.apk)  
 - iOS版本下载: [点我下载最新iOS版本](https://github.com/moxcomic/majsoul-ex/releases/download/iOS%2FAndroid/majsoulex_ios_3.1.6.ipa)
 
 # 制作扩展
