@@ -4,11 +4,16 @@
         "content":
         [
             {
+                "title": "[双端]公告 - 项目说明",
+                "description": "点击查看项目说明",
+                "url": "https://moxcomic.github.io"
+            },
+            {
                 "title": "[Android]公告 - 安卓版本公告",
                 "description": "关于安卓版本公告",
                 "alert": {
                     "title": "安卓版本公告",
-                    "message": "由于「雀魂Ex」安卓与苹果双端均由「神崎·H·亚里亚」一人开发, 故不能保证进度以及后续维护进度, 安卓版本目前还处于测试阶段, 出现任何bug均属于正常情况。\n\n开发者唯一联系方式:\nQQ: 656469762\nQQ: YuukiAsuna\nQQ: 1451925\nQQ: SekinoRoko"
+                    "message": "由于「雀魂Ex」安卓与苹果双端均由「神崎·H·亚里亚」一人开发, 故不能保证进度以及后续维护进度, 出现任何bug均属于正常情况。\n\n开发者唯一联系方式:\nQQ: 656469762\nQQ: YuukiAsuna\nQQ: 1451925\nQQ: SekinoRoko"
                 }
             },
             {
