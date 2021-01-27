@@ -21,12 +21,12 @@
 - iOS版本下载: [点我下载最新iOS版本](https://github.com/moxcomic/majsoul-ex/releases/download/iOS%2FAndroid/majsoulex_ios_3.1.6.ipa)
 
 # 雀口令变量
-\[token\]: 雀口令本体
-\[roomid\]: 房间号
-\[roomlink\]: 雀魂友人房原链接内容
-\[maxplayer_d\]: 房间最大人数, 阿拉伯数字 3/4
-\[maxplayer_s\]: 房间最大人数, 大写 三/四
-\[roommode\]: 房间模式, 东/南
+\[token\]: 雀口令本体  
+\[roomid\]: 房间号  
+\[roomlink\]: 雀魂友人房原链接内容  
+\[maxplayer_d\]: 房间最大人数, 阿拉伯数字 3/4  
+\[maxplayer_s\]: 房间最大人数, 大写 三/四  
+\[roommode\]: 房间模式, 东/南  
 
 # 制作扩展
 `待更新...`
