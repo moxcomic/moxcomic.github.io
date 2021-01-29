@@ -6,7 +6,7 @@ Majsoul Ex
 
 # 开发进度
 - iOS: `3.1.6 正式版`  
-- Android: `1.0.11 正式版`
+- Android: `1.1.0 正式版`
 
 # 开发语言
 - iOS: `Swift & Objective-C`  
@@ -15,7 +15,7 @@ Majsoul Ex
 # 下载地址
 - 雀Ex项目地址: [点我进入项目地址](https://github.com/moxcomic/majsoul-ex)
 - 最新发布版本: [点我进入最新版本页面](https://github.com/moxcomic/majsoul-ex/releases/tag/iOS%2FAndroid)  
-- 安卓版本下载: [点我下载最新安卓版本](https://github.com/moxcomic/majsoul-ex/releases/download/iOS%2FAndroid/majsoulex_android_1.0.11.apk)  
+- 安卓版本下载: [点我下载最新安卓版本](https://github.com/moxcomic/majsoul-ex/releases/download/iOS%2FAndroid/majsoulex_android_1.1.0.apk)  
 - iOS版本下载: [点我下载最新iOS版本](https://github.com/moxcomic/majsoul-ex/releases/download/iOS%2FAndroid/majsoulex_ios_3.1.6.ipa)
 
 # 新增功能
