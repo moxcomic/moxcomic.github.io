@@ -8,9 +8,6 @@ Majsoul Ex
 ### 开发进度
 - iOS: `3.1.6 正式版`  
 - Android: `1.1.0 正式版`
-### 开发语言
-- iOS: `Swift & Objective-C`  
-- Android: `Kotlin & Java`
 
 ## 安装
 ### 安卓
