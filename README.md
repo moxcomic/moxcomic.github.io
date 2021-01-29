@@ -18,7 +18,7 @@ Majsoul Ex
 ### iOS
 点击 `==>` [下载iOS版本](https://github.com/moxcomic/majsoul-ex/releases/download/iOS%2FAndroid/majsoulex_ios_3.1.6.ipa) `<==`
 #### 注意事项
-iOS由于系统原因不能直接下载安装, 需要使用签名方式安装, 具体方式请自行百度
+iOS由于系统原因`不能直接使用iPhone/iPad下载安装`, 需要使用签名方式安装, 具体方式请自行百度
 ### 其他
 - [雀Ex项目地址](https://github.com/moxcomic/majsoul-ex)
 - [最新发布版本](https://github.com/moxcomic/majsoul-ex/releases/tag/iOS%2FAndroid)  
