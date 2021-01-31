@@ -1,4 +1,5 @@
 # 雀魂Ex
+`2021-01-31`: Android `1.1.1`版本发布  
 `2021-01-29`: Android `1.1.0`版本发布  
 `2021-01-28`: Android `1.0.11`版本发布  
 `2021-01-28`: Android `1.0.10`版本发布  
@@ -45,11 +46,11 @@
 ## 开发
 ### 开发进度
 - iOS: `3.1.6 正式版`  
-- Android: `1.1.0 正式版`
+- Android: `1.1.1 正式版`
 
 ## 安装
 ### 安卓
-点击 `==>` [下载安卓版本](https://github.com/moxcomic/majsoul-ex/releases/download/iOS%2FAndroid/majsoulex_android_1.1.0.apk) `<==`
+点击 `==>` [下载安卓版本](https://github.com/moxcomic/majsoul-ex/releases/download/iOS%2FAndroid/majsoulex_android_1.1.1.apk) `<==`
 ### iOS
 点击 `==>` [下载iOS版本](https://github.com/moxcomic/majsoul-ex/releases/download/iOS%2FAndroid/majsoulex_ios_3.1.6.ipa) `<==`
 #### 注意事项
