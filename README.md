@@ -1,4 +1,6 @@
-# 雀魂Ex
+# 雀魂 Ex
+
+`2021-02-02`: Android `1.1.2`版本发布  
 `2021-01-31`: Android `1.1.1`版本发布  
 `2021-01-29`: Android `1.1.0`版本发布  
 `2021-01-28`: Android `1.0.11`版本发布  
@@ -41,42 +43,60 @@
 `2021-01-14`: Android `0.0.1`版本测试
 
 ## 免责声明
+
 在您使用`雀魂Ex`进行游戏时造成的`包含但不局限于限制登录、封号等`后果`均由用户自行承担`, `雀魂Ex`不对此承担任何责任!
 
 ## 开发
+
 ### 开发进度
-- iOS: `3.1.6 正式版`  
-- Android: `1.1.1 正式版`
+
+- iOS: `3.1.6 正式版`
+- Android: `1.1.2 正式版`
 
 ## 安装
+
 ### 安卓
-点击 `==>` [下载安卓版本](https://github.com/moxcomic/majsoul-ex/releases/download/iOS%2FAndroid/majsoulex_android_1.1.1.apk) `<==`
+
+点击 `==>` [下载安卓版本](https://github.com/moxcomic/majsoul-ex/releases/download/iOS%2FAndroid/majsoulex_android_1.1.2.apk) `<==`
+
 ### iOS
-点击 `==>` [下载iOS版本](https://github.com/moxcomic/majsoul-ex/releases/download/iOS%2FAndroid/majsoulex_ios_3.1.6.ipa) `<==`
+
+点击 `==>` [下载 iOS 版本](https://github.com/moxcomic/majsoul-ex/releases/download/iOS%2FAndroid/majsoulex_ios_3.1.6.ipa) `<==`
+
 #### 注意事项
-iOS由于系统原因`不能直接使用iPhone/iPad下载安装`, 需要使用签名方式安装, 具体方式请自行百度
+
+iOS 由于系统原因`不能直接使用iPhone/iPad下载安装`, 需要使用签名方式安装, 具体方式请自行百度
+
 ### 其他
-- [雀Ex项目地址](https://github.com/moxcomic/majsoul-ex)
-- [最新发布版本](https://github.com/moxcomic/majsoul-ex/releases/tag/iOS%2FAndroid)  
+
+- [雀 Ex 项目地址](https://github.com/moxcomic/majsoul-ex)
+- [最新发布版本](https://github.com/moxcomic/majsoul-ex/releases/tag/iOS%2FAndroid)
 
 ## 新增功能/修改雀魂原功能
+
 - 复制友人房链接、雀口令后会弹窗提示是否加入房间, 点击确定后一键加入
-    - 该功能需要登录到游戏主页面才会弹窗
+  - 该功能需要登录到游戏主页面才会弹窗
 - 复制牌谱链接后会弹窗提示是否查看牌谱, 点击确定后一键进入牌谱
-    - 该功能需要登录到游戏主页面才会弹窗
+  - 该功能需要登录到游戏主页面才会弹窗
 - 友人房链接`复制链接`功能修改
 - 牌谱`分享`功能修改
+
 ### 雀口令
+
 雀口令是在雀魂友人房链接上发展出来的新型分享链接方式, 可以自定义更多的分享内容
+
 #### 雀口令支持变量列表
-- \[token\]: 雀口令本体  
-- \[roomid\]: 房间号  
-- \[roomlink\]: 雀魂友人房原链接内容  
-- \[maxplayer_d\]: 房间最大人数, 阿拉伯数字 3/4  
-- \[maxplayer_s\]: 房间最大人数, 大写 三/四  
-- \[roommode\]: 房间模式, 东/南  
+
+- \[token\]: 雀口令本体
+- \[roomid\]: 房间号
+- \[roomlink\]: 雀魂友人房原链接内容
+- \[maxplayer_d\]: 房间最大人数, 阿拉伯数字 3/4
+- \[maxplayer_s\]: 房间最大人数, 大写 三/四
+- \[roommode\]: 房间模式, 东/南
+
 ### 快捷指令
-为了支持`雀魂Plus`雀Ex在`快捷指令`部分内容使用雀魂Plus的配置, 两者可通用。  
+
+为了支持`雀魂Plus`雀 Ex 在`快捷指令`部分内容使用雀魂 Plus 的配置, 两者可通用。  
 在`雀Ex`初始化时会出入`Majsoul_Plus`字段, 之后`每个插件被载入前`会在前面的字段中注册`以插件ID为字段的Key`, 之后只要`在JS中`使用`Majsoul_Plus["id"] = xxx`注册即可, 详细可参考`我全都要`插件的写法。
 
 ```
@@ -106,12 +126,16 @@ if (!window.wqdy) {
 ```
 
 ## 制作扩展
+
 ### 图片资源替换部分
+
 1. 直接替换`/Android/data/com.yuuki.majsoulex/files/Cache`路径下的图片文件
 2. 制作图片资源替换扩展
 
 ### 制作图片资源替换扩展
+
 #### 目录格式
+
 ```
 - 插件名称文件夹
   // 该文件负责描述该扩展的所有信息
@@ -122,7 +146,9 @@ if (!window.wqdy) {
       - 图片.png
     - 图片.png
 ```
+
 下面给出一个`extension.json`的例子
+
 ```
 {
   "id": "id",
@@ -144,18 +170,24 @@ if (!window.wqdy) {
   ]
 }
 ```
-制作完成后将第一步插件文件夹名称直接生成压缩包即可被雀魂Ex识别
 
-### JavaScript扩展制作
+制作完成后将第一步插件文件夹名称直接生成压缩包即可被雀魂 Ex 识别
+
+### JavaScript 扩展制作
+
 `待更新...`
 
 ## 制作扩展源
-### GitHub部署部分
-1. 部署一个Github Pages
+
+### GitHub 部署部分
+
+1. 部署一个 Github Pages
 2. 添加一个`src.ex`文件
 
 ### src.ex
-下面给出雀魂Ex的`src.ex`部分代码展示
+
+下面给出雀魂 Ex 的`src.ex`部分代码展示
+
 ```
 {
     // 扩展源信息
@@ -184,8 +216,11 @@ if (!window.wqdy) {
     ]
 }
 ```
+
 ### 仓库下载方式
+
 下面为一个例子
+
 ```
 // 如果不填写此项则默认为Archive方式下载
 "source":
@@ -198,7 +233,9 @@ if (!window.wqdy) {
     "file": "mjpai_BiliBiliTV.mspr"
 }
 ```
-### Archive方式
+
+### Archive 方式
+
 ```
 假设插件的`版本`为`1.0.0`
 git add .
@@ -207,7 +244,9 @@ git push origin master
 git tag 1.0.0
 git push --tags
 ```
-### Release方式
+
+### Release 方式
+
 ```
 git add .
 git git commit -m "update"
@@ -215,23 +254,30 @@ git push origin master
 手动在Github打Release包上传文件
 Tag和File即为你手动填写的值
 ```
-### Http方式
+
+### Http 方式
+
 ```
 手动上传至任意地方, 此模式必须使用可以直接下载的直链
 ```
-### Raw方式
+
+### Raw 方式
+
 ```
 将插件文件(.ex/.mspe/.mspm/.mspr)直接上传至仓库, 并填写file为该文件名即可
 ```
 
 ## 联系方式
-- B站ID: [神崎·H·亚里亚](https://space.bilibili.com/898411/)  
-- B站ID: [关野萝可](https://space.bilibili.com/612462792/)
-- QQ交流群: [991568358](https://jq.qq.com/?_wv=1027&k=3gaKRwqg)
+
+- B 站 ID: [神崎·H·亚里亚](https://space.bilibili.com/898411/)
+- B 站 ID: [关野萝可](https://space.bilibili.com/612462792/)
+- QQ 交流群: [991568358](https://jq.qq.com/?_wv=1027&k=3gaKRwqg)
 - Twitter: @MajsoulEx
 
 ## 赞助
+
 如果对您有所帮助，欢迎您的赞赏
+
 <figure class="third">
     <img src="https://moxcomic.github.io/wechat.png" width=300>
     <img src="https://moxcomic.github.io/alipay.png" width=300>
