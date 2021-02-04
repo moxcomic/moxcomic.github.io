@@ -70,7 +70,7 @@ iOS 由于系统原因`不能直接使用iPhone/iPad下载安装`, 需要使用�
 ### 雀魂麻将助手
 
 点击 `==>` [下载 macOS 版本](https://github.com/moxcomic/majsoul-ex/releases/download/majsoul_helper/majsoulex_helper_mac) `<==`  
-点击 `==>` [下载 Windows 版本](https://github.com/moxcomic/majsoul-ex/releases/download/majsoul_helper/majsoulex_helper_win64_0.0.2.exe) `<==`  
+点击 `==>` [下载 Windows 版本](https://github.com/moxcomic/majsoul-ex/releases/download/majsoul_helper/majsoulex_helper_win64.exe) `<==`  
 该工具是在[日本麻将助手](https://github.com/EndlessCheng/mahjong-helper)的基础上进行的扩展，具体功能请访问原作者页面。
 
 ### 其他
