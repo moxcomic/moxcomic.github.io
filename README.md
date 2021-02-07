@@ -75,6 +75,7 @@ iOS 由于系统原因`不能直接使用iPhone/iPad下载安装`, 需要使用�
 
 ### 其他
 
+- ver: 0.0.7.2
 - [雀 Ex 项目地址](https://github.com/moxcomic/majsoul-ex)
 - [最新发布版本](https://github.com/moxcomic/majsoul-ex/releases/tag/iOS%2FAndroid)
 
