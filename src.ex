@@ -15,7 +15,7 @@
             "name": "全面屏适配",
             "description": "先通过修改舞台尺寸实现视网膜画布，再通过修改界面去除黑边。\n支持拉伸来实时改变分辨率",
             "author": "88826",
-            "version": "1.4.0",
+            "version": "1.4.1",
             "preview": "preview.jpg",
             "homepage": "https://github.com/moxcomic/RetinalCanvas.git"
         },
