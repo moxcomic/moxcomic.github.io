@@ -1,237 +1,77 @@
 # 雀魂 Ex
 
-## 免责声明
+雀魂 Ex（Majsoul Ex）是一款基于雀魂网页版进行二次开发的第三方客户端, 目前客户端支持 Windows/macOS/Linux/Android/iOS 五大平台, 由于本项目开发及维护者仅有一人故更新时间并不稳定。
 
-在您使用`雀魂Ex`进行游戏时造成的`包含但不局限于限制登录、封号等`后果`均由用户自行承担`, `雀魂Ex`不对此承担任何责任!
+## 统一发布/下载地址
 
-## 开发
+[https://github.com/moxcomic/majsoul-ex/releases](https://github.com/moxcomic/majsoul-ex/releases)
 
-### 开发进度
+## PC 端
 
-- iOS: `3.1.6 正式版`
-- Android: `1.1.2 正式版`
+### 开发语言
 
-## 安装
+`Golang`、`HTML`、`JavaScript`、`Chromium`
 
-### 安卓
+### 使用方式
 
-点击 `==>` [下载安卓版本](https://github.com/moxcomic/majsoul-ex/releases/download/iOS%2FAndroid/majsoulex_android_1.1.2.apk) `<==`
+macOS、Linux 由于系统权限原因需要先使用`chmod +x`添加运行权限  
+运行一次软件后软件会在当前目录创建各个功能不能的文件夹, 由于 GUI 暂时没有时间写所以请务必记住各个文件夹的使用方式, 后续有空了会添加 GUI 界面设置
 
-### iOS
+### 文件夹用途介绍
 
-点击 `==>` [下载 iOS 版本](https://github.com/moxcomic/majsoul-ex/releases/download/iOS%2FAndroid/majsoulex_ios_3.1.6.ipa) `<==`
+- \[已废弃\]Cache: 在首次加载资源时会被备份到此目录一份, 原用途已废弃现仅作为查看资源使用
+- Extensions: 可放置游戏插件（在雀魂 Plus 上扩展被分为`扩展`与`资源包`并且两个的清单文件分别为`extension.json`与`resourcepack.json`, 在雀魂 Ex 看来这俩完全没有必要区分并且统合为`插件`, 目前只要放入该文件夹里的不管是`扩展`还是`资源包`均会被正常读取加载, 并且由于雀魂 Plus 遗留问题较多后续雀魂 Ex 将会定义新的`插件开发方式`）
+- Replace: 在该文件夹的资源文件在启动时会替换掉游戏内的对应资源（例如要替换/foo/bar/ui.png 就在该目录新建 foo 和 bar 文件夹并且路径为`/foo/bar`, 然后在该路径下放入要替换的`新ui.png`即可在启动后替换掉对应资源）
+- UserData: Chromium 核心浏览器缓存
 
-#### 注意事项
+### config.json
 
-iOS 由于系统原因`不能直接使用iPhone/iPad下载安装`, 需要使用签名方式安装, 具体方式请自行百度
+chromium_browser_file_path: 如果系统没有查找到 chrome 浏览器请在此处手动指定浏览器地址, 必须指定 chromium 内核的浏览器, 否则不会生效  
+not_cache_files: 已废弃  
+special_cache_files: 已废弃  
+proxy: 代理设置（仅支持 http/https）
 
-### 雀魂麻将助手
+- enable: true/false
+- scheme: http/https
+- url: 127.0.0.1
+- port: 端口号
 
-- ver: 0.0.16  
-  点击 `==>` [下载 macOS 版本](https://github.com/moxcomic/majsoul-ex/releases/download/majsoul_helper/majsoulex_helper_mac) `<==`  
-  点击 `==>` [下载 Windows 版本](https://github.com/moxcomic/majsoul-ex/releases/download/majsoul_helper/majsoulex_helper_win64.exe) `<==`  
-  该工具是在[日本麻将助手](https://github.com/EndlessCheng/mahjong-helper)的基础上进行的扩展，具体功能请访问原作者页面。  
-  GUI `==>` [GUI 项目地址](https://github.com/moxcomic/majsoulex_gui)
+### FAQ
 
-### 其他
+## Mobile 移动端
 
-- [雀 Ex 项目地址](https://github.com/moxcomic/majsoul-ex)
-- [最新发布版本](https://github.com/moxcomic/majsoul-ex/releases/tag/iOS%2FAndroid)
+### Android 安卓
 
-## 新增功能/修改雀魂原功能
+没有特殊说明
 
-- 复制友人房链接、雀口令后会弹窗提示是否加入房间, 点击确定后一键加入
-  - 该功能需要登录到游戏主页面才会弹窗
-- 复制牌谱链接后会弹窗提示是否查看牌谱, 点击确定后一键进入牌谱
-  - 该功能需要登录到游戏主页面才会弹窗
-- 友人房链接`复制链接`功能修改
-- 牌谱`分享`功能修改
+### FAQ
 
-### 雀口令
+Q: 为什么字体显示乱码？  
+A: 请手动切换一次语言, 例如当前游戏语言为简体中文就手动切到繁体中文后再切回来.
 
-雀口令是在雀魂友人房链接上发展出来的新型分享链接方式, 可以自定义更多的分享内容
+Q: 为什么更新后没有新活动或者刷新不出资源?  
+A: 请手动删除一次 Cache 文件夹, 路径为/Android/data/com.yuuki.majsoulex/files/Cache
 
-#### 雀口令支持变量列表
+Q: 为什么无法加载出源以及首页显示为空？  
+A: 因为部署的服务器在海外, 如无法正常访问/下载请使用 VPN
 
-- \[token\]: 雀口令本体
-- \[roomid\]: 房间号
-- \[roomlink\]: 雀魂友人房原链接内容
-- \[maxplayer_d\]: 房间最大人数, 阿拉伯数字 3/4
-- \[maxplayer_s\]: 房间最大人数, 大写 三/四
-- \[roommode\]: 房间模式, 东/南
+Q: 如何安装插件?
+A: 可以通过内置的插件源下载, 或者其他途径下载到的插件点击选择其他应用打开后往下滑找到雀魂 Ex 选择打开即可
 
-### 快捷指令
+### iOS 苹果
 
-为了支持`雀魂Plus`雀 Ex 在`快捷指令`部分内容使用雀魂 Plus 的配置, 两者可通用。  
-在`雀Ex`初始化时会出入`Majsoul_Plus`字段, 之后`每个插件被载入前`会在前面的字段中注册`以插件ID为字段的Key`, 之后只要`在JS中`使用`Majsoul_Plus["id"] = xxx`注册即可, 详细可参考`我全都要`插件的写法。
+由于 iOS 系统特殊限制安装需要签名, 具体办法请自行解决, 如果赞助的多了后会考虑其他方案.
 
-```
-if (!window.wqdy) {
-    window.wqdy = new WQDY();
-    window.wqdy.readSetting();
-    Majsoul_Plus["wqdy"] = {
-        name: "我全都要",
-        actions: {
-            "手动保存配置": () => window.wqdy.writeSetting(),
-            "切换表情显示": () => {
-                args.isUseOriginEmoji = !args.isUseOriginEmoji;
-                localStorage.setItem("isUseOriginEmoji", args.isUseOriginEmoji);
-                return "应用成功，下一局游戏生效。"
-            },
-            "按性别排序角色": () => {
-                args.isSexSort = !args.isSexSort;
-                localStorage.setItem("isSexSort", isSexSort);
-                return "应用成功，重新启动游戏后生效。"
-            }
-        }
-    }
-    console.log("我全都要 加载完毕");
-} else {
-    console.warn("")
-}
-```
+### FAQ
 
-## 制作扩展
+Q: 为什么无法签名?  
+A: 开发者测试并没有任何问题可以正常签名, 请检查您的签名方式
 
-### 图片资源替换部分
+Q: 签名提示 Arch 结构错误?  
+A: 开发者测试签名正常, 请检查您的签名方式
 
-1. 直接替换`/Android/data/com.yuuki.majsoulex/files/Cache`路径下的图片文件
-2. 制作图片资源替换扩展
-
-### 制作图片资源替换扩展
-
-#### 目录格式
-
-```
-- 插件名称文件夹
-  // 该文件负责描述该扩展的所有信息
-  - extension.json
-  // 资源存放文件夹, 所有需要替换的资源必须存放于此路径下
-  - assets
-    - 文件夹
-      - 图片.png
-    - 图片.png
-```
-
-下面给出一个`extension.json`的例子
-
-```
-{
-  "id": "id",
-  "version": "1.0.0",
-  "name": "name",
-  "author": "author",
-  "description": "description",
-  "preview": "preview.png",
-
-  "replace": [
-    // 直接替换包含该路径的图片为assets文件下同路径文件
-    "audio/sound/zeniya/fan_dora10.mp3",
-    "scene/Assets/Resource/mjpai/en/mjp_default_0/8p.png",
-    // 替换from路径的文件为assets路径下的to文件
-    {
-      "from": "audio/sound/qianzhi/lobby_normal1.mp3",
-      "to": "audio/quack.mp3"
-    }
-  ]
-}
-```
-
-制作完成后将第一步插件文件夹名称直接生成压缩包即可被雀魂 Ex 识别
-
-### JavaScript 扩展制作
-
-`待更新...`
-
-## 制作扩展源
-
-### GitHub 部署部分
-
-1. 部署一个 Github Pages
-2. 添加一个`src.ex`文件
-
-### src.ex
-
-下面给出雀魂 Ex 的`src.ex`部分代码展示
-
-```
-{
-    // 扩展源信息
-    "info":
-    {
-        "id": "com.moxcomic.MajsoulEx",
-        "name": "雀魂Ex官方源",
-        "author": "MajsoulEx",
-        "email": "656469762@qq.com",
-        "description": "雀魂Ex官方源, 由「雀魂X」、「雀魂Ex」开发者维护更新, 本源仅收录插件并不开发插件, 需要投稿插件请添加QQ 656469762, 如果收录的插件侵犯了您的权益请联系我们, 在我们确认所有权后会对本源上的侵权插件进行下架",
-        "icon": "https://raw.githubusercontent.com/moxcomic/moxcomic.github.io/master/icon.png"
-    },
-    // 扩展源发布扩展
-    "release":
-    [
-        {
-            "id": "RetinalCanvas",
-            "name": "全面屏适配",
-            "description": "先通过修改舞台尺寸实现视网膜画布，再通过修改界面去除黑边。\n支持拉伸来实时改变分辨率",
-            "author": "88826",
-            "version": "1.3.0",
-            "preview": "preview.jpg",
-            // 该扩展所在的仓库
-            "homepage": "https://github.com/moxcomic/RetinalCanvas.git"
-        }
-    ]
-}
-```
-
-### 仓库下载方式
-
-下面为一个例子
-
-```
-// 如果不填写此项则默认为Archive方式下载
-"source":
-{
-    // 扩展的发布方式
-    "type": "release",
-    // 扩展的Tag字段, 用于Release模式指定Tag
-    "tag": "2.0.0",
-    // 扩展文件名, 用于Release/Http/Raw下载模式指定下载文件名
-    "file": "mjpai_BiliBiliTV.mspr"
-}
-```
-
-### Archive 方式
-
-```
-假设插件的`版本`为`1.0.0`
-git add .
-git git commit -m "update"
-git push origin master
-git tag 1.0.0
-git push --tags
-```
-
-### Release 方式
-
-```
-git add .
-git git commit -m "update"
-git push origin master
-手动在Github打Release包上传文件
-Tag和File即为你手动填写的值
-```
-
-### Http 方式
-
-```
-手动上传至任意地方, 此模式必须使用可以直接下载的直链
-```
-
-### Raw 方式
-
-```
-将插件文件(.ex/.mspe/.mspm/.mspr)直接上传至仓库, 并填写file为该文件名即可
-```
+Q: 如何安装插件?  
+A: 由于系统限制原因只能通过内置插件源进行下载
 
 ## 联系方式
 
