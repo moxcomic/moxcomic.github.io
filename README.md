@@ -40,6 +40,11 @@ proxy: 代理设置（仅支持 http/https）
 
 ## Mobile 移动端
 
+### 开发语言
+
+Android: Kotlin、Java  
+iOS: Swift、OC
+
 ### Android 安卓
 
 没有特殊说明
