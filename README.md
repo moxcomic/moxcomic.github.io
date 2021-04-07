@@ -8,9 +8,9 @@
 
 ### 下载教程
 
-1. 点击下载点解
+1. 点击下载连接  
    ![](image/downloadLink.png)
-2. 选择对应的客户端下载
+2. 选择对应的客户端下载  
    ![](image/downloadList.png)
 
 ### 安装教程
