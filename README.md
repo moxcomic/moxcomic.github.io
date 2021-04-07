@@ -6,44 +6,43 @@
 
 [https://github.com/moxcomic/majsoul-ex/releases](https://github.com/moxcomic/majsoul-ex/releases)
 
-## PC 端
+### 下载教程
 
-### 开发语言
+1. 点击下载点解
+   ![](image/downloadLink.png)
+2. 选择对应的客户端下载
+   ![](image/downloadList.png)
 
-`Golang`、`HTML`、`JavaScript`、`Chromium`
+### 安装教程
 
-### 使用方式
+#### Android 安卓客户端
 
-macOS、Linux 由于系统权限原因需要先使用`chmod +x`添加运行权限  
-运行一次软件后软件会在当前目录创建各个功能不能的文件夹, 由于 GUI 暂时没有时间写所以请务必记住各个文件夹的使用方式, 后续有空了会添加 GUI 界面设置
+直接下载安装
 
-### 文件夹用途介绍
+#### iOS iPhone/iPad 客户端
 
-- \[已废弃\]Cache: 在首次加载资源时会被备份到此目录一份, 原用途已废弃现仅作为查看资源使用
-- Extensions: 可放置游戏插件（在雀魂 Plus 上扩展被分为`扩展`与`资源包`并且两个的清单文件分别为`extension.json`与`resourcepack.json`, 在雀魂 Ex 看来这俩完全没有必要区分并且统合为`插件`, 目前只要放入该文件夹里的不管是`扩展`还是`资源包`均会被正常读取加载, 并且由于雀魂 Plus 遗留问题较多后续雀魂 Ex 将会定义新的`插件开发方式`）
-- Replace: 在该文件夹的资源文件在启动时会替换掉游戏内的对应资源（例如要替换/foo/bar/ui.png 就在该目录新建 foo 和 bar 文件夹并且路径为`/foo/bar`, 然后在该路径下放入要替换的`新ui.png`即可在启动后替换掉对应资源）
-- UserData: Chromium 核心浏览器缓存
+百度查询签名进行安装
 
-### config.json
+#### Windows
 
-chromium_browser_file_path: 如果系统没有查找到 chrome 浏览器请在此处手动指定浏览器地址, 必须指定 chromium 内核的浏览器, 否则不会生效  
-not_cache_files: 已废弃  
-special_cache_files: 已废弃  
-proxy: 代理设置（仅支持 http/https）
+双击运行
 
-- enable: true/false
-- scheme: http/https
-- url: 127.0.0.1
-- port: 端口号
+#### Linux / macOS
 
-### FAQ
+下载后先执行`chmod +x $文件名`赋予运行权限
+![](image/chmod.png)
+例如我们这里下载的文件放到了桌面上, 就先执行`cd ~/Desktop`命令(放在哪就 cd 到哪儿), 然后执行`chmod +x $文件名`, 这里我们假设文件名是`majsoulex_mac`这时这条命令完整的就是`chmod +x majsoulex_mac`
+
+#### Apple Silicon (M1)
+
+M1 芯片的 Mac 可能不支持部分指令，所以需要先安装`homebrew`、`upx`然后使用`upx -d $文件名`解压文件后才能运行,具体方案请自行百度
+
+## PC 端使用教程
+
+插件安装: 将插件文件解压到 Extensions 目录下即可  
+其他设置参照 config.json
 
 ## Mobile 移动端
-
-### 开发语言
-
-Android: Kotlin、Java  
-iOS: Swift、OC
 
 ### Android 安卓
 
@@ -83,14 +82,13 @@ A: 由于系统限制原因只能通过内置插件源进行下载
 - B 站 ID: [神崎·H·亚里亚](https://space.bilibili.com/898411/)
 - B 站 ID: [关野萝可](https://space.bilibili.com/612462792/)
 - QQ 交流群: [991568358](https://jq.qq.com/?_wv=1027&k=3gaKRwqg)
-- Twitter: @MajsoulEx
 
 ## 赞助
 
 如果对您有所帮助，欢迎您的赞赏
 
 <figure class="third">
-    <img src="https://moxcomic.github.io/wechat.png" width=300>
-    <img src="https://moxcomic.github.io/alipay.png" width=300>
-    <img src="https://moxcomic.github.io/qq.png" width=300>
+    <img src="./wechat.png" width=170>
+    <img src="./alipay.png" width=170>
+    <img src="./qq.png" width=170>
 </figure>
